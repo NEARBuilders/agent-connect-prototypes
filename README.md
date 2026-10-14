@@ -1,4 +1,4 @@
-# agent-connect-experiments
+# agent-connect-prototypes
 
 Demo/product experiments for the [NEAR Intents Agent API](https://github.com/NEAR-Intents-Agent-API/skills)
 ("Agent Connect") — the API that gives every AI agent its own agent account on NEAR Intents,
