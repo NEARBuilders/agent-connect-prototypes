@@ -82,6 +82,12 @@ Sketch the real-but-simple, isolated prototype:
 
 ## Verdicts and routing
 
+**Privacy rule:** the experiment content in `docs/` is private to this workspace. Write verdict
+files and update the local `docs/README.md` table as usual, run the build script locally — but
+never commit or push anything under `docs/` except `docs/.gitkeep` (`.gitignore` enforces this).
+If a merged PR introduces docs content, it lands tracked in your clone; move it into the private
+set with `git rm --cached` in a follow-up commit.
+
 - **PASS** — write a new numbered experiment `docs/NN-slug.md` in the house format below, and add
   its row to the table in `docs/README.md`.
 - **FAIL** — append a `## [Killed] <idea> — <reason>` section to `docs/additional.md` with one

@@ -1,1 +1,6 @@
 .DS_Store
+
+# Experiment content is private — it lives in this local workspace only.
+# The public repo carries the audit process, skills and scripts, not the ideas.
+docs/*
+!docs/.gitkeep

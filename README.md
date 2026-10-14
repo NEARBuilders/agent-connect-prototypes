@@ -11,11 +11,15 @@ autonomously, knowing it will operate within guardrails you signed.
 
 ## Browsing the experiments
 
-Open `docs/index.html` in a browser — a built site of all experiments grouped by theme
-(Treasury, Commerce, Trading, Infrastructure, Conversational, Security). The sources are
-`docs/NN-slug.md` files, indexed in [`docs/README.md`](docs/README.md). Ideas that didn't make
-the main list live in [`docs/additional.md`](docs/additional.md), killed ideas included with
-their kill notes.
+The experiment content — the ideas themselves — is **maintained privately** and does not live in
+this public repo. The public layer is the machinery: the audit protocol, the installable skill,
+the site build script, and this process documentation. Propose new ideas by opening an issue or
+a PR adding a markdown file under `docs/`; the maintainers merge, move the content into their
+private workspace, and keep this repo clean.
+
+The audit runs entirely in your local clone: open the repo in any AGENTS.md-aware harness, type
+an idea in chat, and the agent will run the gates, grill you in rounds, and write the verdict to
+`docs/` locally.
 
 ## The idea audit
 
