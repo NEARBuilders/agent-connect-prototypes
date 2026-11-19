@@ -8,6 +8,7 @@ on:
 
 jobs:
   e2e:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -30,6 +31,7 @@ jobs:
           NEAR_AI_API_KEY: ${{ secrets.NEAR_AI_API_KEY }}
 
   tier3-hermes:
+    timeout-minutes: 60
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     defaults:
